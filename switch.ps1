@@ -3,7 +3,7 @@
 #läs in vilken dag
 $dag = Read-Host "Ange veckodag"
 
-# switch staten beroande på dag
+# switch satsen beroande på dag
 switch ($dag) {
     "måndag" {Write-Host "ny vecka, nya möjligheter"  }
     "Fredag" {Write-Host "Tacos"  }
